@@ -1,0 +1,27 @@
+body{
+    background-image: url("./background.jpg");
+    color: whitesmoke
+}
+
+button[id='calcular']:hover{
+    transition: 1s;
+    background-color: rgba(255, 255, 255, 0.74);
+    color: rgb(0, 0, 0)
+}
+
+input[id='nome'],[id='peso'],[id='distancia'],[id='tempo']{
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: rgba(255, 255, 255, 0.63);
+    border-color: rgba(153, 205, 50, 0.568);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(153 205 50 / 10%);
+}
+
+textarea{
+    color: black;
+    text-align: justify;
+}
